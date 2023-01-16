@@ -1,0 +1,203 @@
+/* Google font CDN */
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Ubuntu&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville&family=Passions+Conflict&display=swap");
+
+body {
+  font-family: "Kanit", sans-serif;
+  overflow-x: hidden;
+}
+
+.brand {
+  font-family: "Passions Conflict", cursive !important;
+  font-size: 4.4rem !important;
+  cursor: pointer;
+  /* color: #D3756B; /*--light orange */
+  /* color: #C780FA;  --Lavender */
+  /* color: #FEA1BF; --pink   */
+  /* color: #CCD6A6; --olive light shade */
+  /* color: #975C8D; --raspberry shade */
+  /* color: #D989B5; */
+  /* color:#6D9886 ; --olive */
+  /* color: #937DC2; */
+  /* color: #D6CDA4; --light yellow   */
+  /* color: #; */
+}
+.social-icon {
+  color: rgb(224, 223, 223);
+}
+.social-icon:hover {
+  color: rgb(185, 183, 183);
+}
+
+
+/* HEADER SECTION     */
+.nav-items{
+    font-family: 'Noto Serif JP', serif;
+    letter-spacing: 0.1rem !important;
+   
+}
+.nav-items a:hover {
+  color: rgb(165, 162, 162) !important;
+  cursor: pointer !important;
+}
+.nav-items a{
+    color: rgb(185, 183, 183) !important;
+    text-decoration: none !important;
+
+}
+
+/* HOME SECTION   */
+
+.home-container {
+  margin: 110px ;
+}
+
+.home-image {
+  width: 500px ;
+  height: 500px;
+}
+
+.home-heading {
+  font-family: "Baskervville", serif;
+  /* font-family: 'Lexend Deca', sans-serif; */
+  text-transform: uppercase;
+}
+.about-me{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.1rem;
+}
+
+/* FOOTER SECTION */
+.footer-section{
+  width: 100%!important;
+}
+.footer-links{
+font-size: 0.7rem !important;
+text-transform: uppercase;
+font-family: 'Noto Serif JP', serif;
+letter-spacing: 0.3rem !important;
+color: white ;
+}
+.footer-links:hover {
+  color: rgb(165, 162, 162) !important;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.copyright-p{
+letter-spacing: 0.1rem !important;
+color: rgb(131, 129, 129);
+
+}
+@media screen and (max-width: 550px){
+  body{
+    overflow-x: hidden;
+  }
+  .header-items{
+    display: flex;
+    flex-direction: column !important;
+  }
+  .search{
+    display: none !important;
+  }
+  .navbar-row{
+    display: flex !important;
+    /* flex-direction: column !important; */
+    justify-content: space-between !important;
+  }
+}
+@media screen and (max-width: 900px){
+  body{
+    overflow-x: hidden;
+  }
+ 
+  .search{
+    display: none !important;
+  }
+  .navbar-row{
+    display:flex;
+    justify-content: space-between;
+  }
+  
+}
+@media screen and (max-width: 900px) {
+  body{
+    overflow-x: hidden !important;
+  }
+  .home-container {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+  }
+  .home-container {
+    /* margin: 15px !important; */
+  }
+  
+  .home-image {
+    width: 550px !important;
+    height: 490px;
+    /* display: flex;
+    justify-content: center !important; */
+  }
+  .about-me{
+width: 550px !important;
+  }
+  .footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content:center !important;
+    align-items: center;
+    /* margin-left: 50px!important;
+    padding: 0px !important; */
+  }
+
+}
+@media screen and (max-width: 1380px) {
+  .home-image {
+    width: 450px ;
+    height: 450px;
+  }
+  .about-me{
+    width: 610px ;
+  }
+}
+@media screen and (max-width: 350px) {
+  .footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content:center !important;
+    align-items: center;
+    margin-left: 50%;
+    width: 100%;
+}
+ 
+  }
+@media screen and (max-width: 520px) {
+  .footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content:center !important;
+    align-items: center;
+    margin-left: 10%;
+    width: 100%;
+}
+ 
+  }
+@media screen and (max-width: 320px) {
+  .navbar-row{
+    display: flex;
+    flex-direction: column;
+    justify-content:center !important;
+    align-items: center;
+    /* margin-left: 10%; */
+    width: 100%;
+}
+ 
+  }
+
+
+
+
+  
+

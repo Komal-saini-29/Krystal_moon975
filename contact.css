@@ -1,0 +1,36 @@
+/* .contact-image{
+    height: 550px;
+    width: 450px;
+} */
+
+.contact-form{
+    /* background-color: rgba(37, 29, 56, 0.606); */
+    background-image: url("images/contact-bg.jpg");
+    background-size: cover;
+background-position: center;
+    width: 1200px;
+    height: 550px;
+    
+}
+.login-form{
+    background-color: rgb(17, 17, 55);
+    height: 550px;
+    width: 450px;
+    float: right;
+ 
+}
+input{
+    background-color: #fff;
+    border: 2px solid rgba(39, 27, 67, 0.606);
+    border-radius: 8px;
+    color: rgba(30, 29, 29, 0.829);
+}
+input:hover{
+    border: 2px solid rgba(64, 35, 132, 0.918);
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+ 
+  }

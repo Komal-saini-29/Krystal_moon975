@@ -1,0 +1,13 @@
+
+.article-header-image{
+    width: 1200px;
+    height:680px;
+}
+.article-column{
+    width: 800px !important;
+    
+}
+.article-heading{
+    text-transform: uppercase;
+    font-family: "Baskervville", serif;
+}
